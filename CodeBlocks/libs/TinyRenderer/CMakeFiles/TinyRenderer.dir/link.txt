@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libTinyRenderer.a CMakeFiles/TinyRenderer.dir/Geometry.cpp.obj CMakeFiles/TinyRenderer.dir/ICanvas.cpp.obj CMakeFiles/TinyRenderer.dir/TinyRenderer.cpp.obj CMakeFiles/TinyRenderer.dir/WindowsGDICanvas.cpp.obj CMakeFiles/TinyRenderer.dir/WindowsUtils.cpp.obj CMakeFiles/TinyRenderer.dir/pch.cpp.obj
+C:\MinGW\bin\ranlib.exe libTinyRenderer.a

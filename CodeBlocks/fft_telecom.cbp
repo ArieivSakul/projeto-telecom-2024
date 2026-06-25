@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="fft_telecom"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\libs\;CMake Files\libs\TinyRenderer\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fft_visualize">
+				<Option output="C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/fft_visualize.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/libs/TinyRenderer/include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/Makefile&quot;  VERBOSE=1 fft_visualize"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fft_visualize/fast">
+				<Option output="C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/fft_visualize.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/libs/TinyRenderer/include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/Makefile&quot;  VERBOSE=1 fft_visualize/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TinyRenderer">
+				<Option output="C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/libs/TinyRenderer/libTinyRenderer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/libs/TinyRenderer"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/libs/TinyRenderer/include"/>
+					<Add directory="C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/libs/TinyRenderer/include/.."/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/libs/TinyRenderer/Makefile&quot;  VERBOSE=1 TinyRenderer"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/libs/TinyRenderer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/libs/TinyRenderer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/libs/TinyRenderer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TinyRenderer/fast">
+				<Option output="C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/libs/TinyRenderer/libTinyRenderer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/libs/TinyRenderer"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/libs/TinyRenderer/include"/>
+					<Add directory="C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/libs/TinyRenderer/include/.."/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/libs/TinyRenderer/Makefile&quot;  VERBOSE=1 TinyRenderer/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/libs/TinyRenderer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/libs/TinyRenderer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/libs/TinyRenderer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/libs/TinyRenderer/Geometry.cpp">
+			<Option target="TinyRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/libs/TinyRenderer/ICanvas.cpp">
+			<Option target="TinyRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/libs/TinyRenderer/TinyRenderer.cpp">
+			<Option target="TinyRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/libs/TinyRenderer/WindowsGDICanvas.cpp">
+			<Option target="TinyRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/libs/TinyRenderer/WindowsUtils.cpp">
+			<Option target="TinyRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/libs/TinyRenderer/pch.cpp">
+			<Option target="TinyRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/libs/TinyRenderer/pch.h">
+			<Option target="TinyRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/src/main.cpp">
+			<Option target="fft_visualize"/>
+		</Unit>
+		<Unit filename="C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/libs/TinyRenderer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\TinyRenderer\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

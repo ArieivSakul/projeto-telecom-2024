@@ -1,0 +1,10 @@
+C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/CMakeFiles/fft_visualize.dir
+C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/CMakeFiles/package.dir
+C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/CMakeFiles/package_source.dir
+C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/CMakeFiles/edit_cache.dir
+C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/CMakeFiles/rebuild_cache.dir
+C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/libs/TinyRenderer/CMakeFiles/TinyRenderer.dir
+C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/libs/TinyRenderer/CMakeFiles/package.dir
+C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/libs/TinyRenderer/CMakeFiles/package_source.dir
+C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/libs/TinyRenderer/CMakeFiles/edit_cache.dir
+C:/Users/lukas/OneDrive/Desktop/Faculdade/projeto_telecom 2024/CodeBlocks/libs/TinyRenderer/CMakeFiles/rebuild_cache.dir
